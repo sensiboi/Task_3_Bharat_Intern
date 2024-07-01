@@ -1,11 +1,11 @@
-# YBI-foundation-Project
-Movie Recommendation System
+# TASK 3
+## Movie Recommendation System
 This repository contains a movie recommendation system developed using a dataset of movies and various machine learning techniques. The system recommends movies based on the similarity of genres, keywords, taglines, cast, and directors.
 
-Project Overview
+## Project Overview
 The project focuses on building a recommendation system using the TF-IDF vectorization technique and cosine similarity to recommend movies similar to a user's favorite movie.
 
-Dataset
+## Dataset
 The dataset contains information about movies, including:
 
 Movie ID
@@ -51,10 +51,10 @@ The user is prompted to input their favorite movie, and the closest matching mov
 7. Get Recommendations
 Based on the similarity scores, the top 20 movies similar to the user's favorite movie are recommended and displayed.
 
-Predictions
+## Predictions
 The system recommends the top 20 movies based on the similarity scores.
 
-Example
+## Example
 For the favorite movie "Star Wars", the top 10 recommended movies are:
 
 Finding Nemo
@@ -67,9 +67,9 @@ El Mariachi
 Shooting Fish
 The Shaggy Dog
 The Muse
-Conclusion
+## Conclusion
 This movie recommendation system effectively suggests movies based on the user's favorite movie using a content-based filtering approach. The cosine similarity metric ensures that the recommendations are based on the closest match of movie attributes.
-Libraries
+## Libraries
 pandas
 numpy
 scikit-learn
